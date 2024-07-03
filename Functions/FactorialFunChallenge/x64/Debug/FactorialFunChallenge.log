@@ -1,0 +1,3 @@
+﻿  main.cpp
+D:\TheCompleteCPPDevCourse_Udemy\FactorialFunChallenge\FactorialFunChallenge\main.cpp(22): warning C4715: 'factorial': not all control paths return a value
+  FactorialFunChallenge.vcxproj -> D:\TheCompleteCPPDevCourse_Udemy\FactorialFunChallenge\x64\Debug\FactorialFunChallenge.exe
