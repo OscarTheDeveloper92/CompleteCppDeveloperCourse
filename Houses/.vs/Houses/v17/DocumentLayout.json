@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\TheCompleteCPPDevCourse_Udemy\\Intro To Classes and Object\\Houses\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1D03779A-F75F-41E0-AA41-C8DA19CB0B04}|Houses\\Houses.vcxproj|D:\\TheCompleteCPPDevCourse_Udemy\\Intro To Classes and Object\\Houses\\Houses\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1D03779A-F75F-41E0-AA41-C8DA19CB0B04}|Houses\\Houses.vcxproj|solutionrelative:Houses\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D03779A-F75F-41E0-AA41-C8DA19CB0B04}|Houses\\Houses.vcxproj|D:\\TheCompleteCPPDevCourse_Udemy\\Intro To Classes and Object\\Houses\\Houses\\House.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1D03779A-F75F-41E0-AA41-C8DA19CB0B04}|Houses\\Houses.vcxproj|solutionrelative:Houses\\House.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D03779A-F75F-41E0-AA41-C8DA19CB0B04}|Houses\\Houses.vcxproj|D:\\TheCompleteCPPDevCourse_Udemy\\Intro To Classes and Object\\Houses\\Houses\\House.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1D03779A-F75F-41E0-AA41-C8DA19CB0B04}|Houses\\Houses.vcxproj|solutionrelative:Houses\\House.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "House.cpp",
+              "DocumentMoniker": "D:\\TheCompleteCPPDevCourse_Udemy\\Intro To Classes and Object\\Houses\\Houses\\House.cpp",
+              "RelativeDocumentMoniker": "Houses\\House.cpp",
+              "ToolTip": "D:\\TheCompleteCPPDevCourse_Udemy\\Intro To Classes and Object\\Houses\\Houses\\House.cpp",
+              "RelativeToolTip": "Houses\\House.cpp",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACUAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-08-08T08:20:52.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "House.h",
+              "DocumentMoniker": "D:\\TheCompleteCPPDevCourse_Udemy\\Intro To Classes and Object\\Houses\\Houses\\House.h",
+              "RelativeDocumentMoniker": "Houses\\House.h",
+              "ToolTip": "D:\\TheCompleteCPPDevCourse_Udemy\\Intro To Classes and Object\\Houses\\Houses\\House.h",
+              "RelativeToolTip": "Houses\\House.h",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABQAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-08-08T08:20:37.708Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "D:\\TheCompleteCPPDevCourse_Udemy\\Intro To Classes and Object\\Houses\\Houses\\main.cpp",
+              "RelativeDocumentMoniker": "Houses\\main.cpp",
+              "ToolTip": "D:\\TheCompleteCPPDevCourse_Udemy\\Intro To Classes and Object\\Houses\\Houses\\main.cpp",
+              "RelativeToolTip": "Houses\\main.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-08-07T07:30:22.716Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
