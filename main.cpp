@@ -1,63 +1,70 @@
 #include <iostream>
-#include <vector>
 #include <string>
-
 using namespace std;
+
+class House {
+	public:
+		void setNumStories(int numStories)
+		{
+			this->numStories = numStories;
+		}
+
+		void setNumWindows(int numWindows)
+		{
+			this->numWindows = numWindows;
+		}
+
+		void setColor(string color)
+		{
+			this->color = color;
+		}
+
+		int getNumStories() const
+		{
+			return numStories;
+		}
+
+		int getNumWindows() const
+		{
+			return numWindows;
+		}
+
+		string getColor() const
+		{
+			return color;
+		}
+
+	private:
+		int numStories;
+		int numWindows;
+		string color;
+}; //end of house class
+
+void printHouseData(const House& house);
 
 int main()
 {
-	//Beginning of my Solution
-	vector <int> myInt(1);
-	int doubledInts;
+	House myHouse;
+	House yourHouse;
+	
+	myHouse.setNumStories(2);
+	myHouse.setNumWindows(6);
+	myHouse.setColor("red");
 
-	cout << "Enter non-negative numbers and a negative number to quit: ";
+	yourHouse.setNumStories(3);
+	yourHouse.setNumWindows(10);
+	yourHouse.setColor("blue");
 
-	for (int i = 0; i < myInt.size(); i++)
-	{
-		int newInt;
-		cin >> newInt;
-		if (newInt > 0)
-		{
-			doubledInts = newInt * 2;
-			myInt.push_back(doubledInts);
-		}
-		else if (newInt < 0)
-		{
-			break;
-		}
-	}
-	for (int nums : myInt)
-	{
-		if (nums == 0)
-		{
-			continue;
-		}
-		cout << nums << ", ";
-	}//End of my Solution
-
-	/*
-	Course solution
-	vector<int> myIntVector;
-	int input;
-
-	//priming read
-	cout << "Enter a positive integer to add to the vector or negative to quit: " << endl;
-	cin >> input;
-
-	while(input >= 0)
-	{
-		myIntVector.push_back(input);
-		cout << "Enter a positive integer to add to the vector or negative to quit: " << endl;
-		cin >> input;
-	}
-
-	cout << "Now here are double the amounts: ";
-
-	for(int nums : myIntVector)
-	{
-		cout << (nums * 2) << endl;
-	}
-	*/
-
+	printHouseData(myHouse);
+	printHouseData(yourHouse);
+	
 	return 0;
+}
+
+void printHouseData(const House& house)
+{
+	cout << "The house is " << house.getColor() <<
+		" and has " << house.getNumStories() <<
+		" stories and " << house.getNumWindows() <<
+		" windows." << endl;
 }
